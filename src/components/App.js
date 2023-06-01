@@ -13,7 +13,6 @@ const App = () => {
   return (
     <div >
         {/* Do not remove the main div */}
-        <div className="modal-overlay" onClick={()=>SetShowModal(false)}></div>
         <button onClick={modaling}>Show Modal</button>
         {showModal?<Modal showModal={SetShowModal}/>:''}
     </div>
